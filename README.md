@@ -23,43 +23,102 @@ Currently researching memory page compressibility prediction for optimizing zram
 
 ## 🏗 Featured Projects
 
-### 🔹 FlowPilot – Multi-Tenant SaaS Workflow Engine
-Tech: React, Node.js, Express, PostgreSQL, Prisma, JWT
+### 🔹 ReplixAI – AI Email Automation System
+**Tech:** Python, FastAPI, LangGraph, PostgreSQL, Qdrant, WebSockets, Docker
 
-- Graph-based workflow execution engine
-- Role-based access control
-- HTTP-only JWT authentication
-- Analytics dashboard for workflow performance
+- Built a multi-agent AI email automation platform integrated with Gmail APIs and Google OAuth 2.0
+- Designed LangGraph workflows for email classification, structured extraction, monitoring, and AI reply generation
+- Implemented real-time email processing using Gmail Webhooks (Pub/Sub) and WebSockets
+- Developed RAG-powered contextual responses using Qdrant vector search and Sentence Transformers
+- Added secure JWT authentication with scalable multi-tenant architecture
+- Containerized backend services using Docker and automated deployment pipelines
 
-🔗 Live: https://flowpilot-smoky.vercel.app/  
-🔗 Repo: https://github.com/adya07pandey/flowpilot  
+**Core Features:**  
+`Multi-Agent AI` • `RAG Pipeline` • `Gmail OAuth` • `WebSockets` • `Vector Search` • `JWT Auth`
+🔗 **Live:** [ReplixAI](replix-ai-one.vercel.app)
+🔗 **Repo:** [ReplixAI](https://github.com/adya07pandey/ReplixAI)
 
 ---
 
 ### 🔹 SyncDraft – Real-Time Collaborative Editor
-Tech: React, AWS Lambda, WebSockets, DynamoDB, Redis, CRDT
+**Tech:** React, AWS Lambda, WebSockets, DynamoDB, Redis, CRDT
 
-- Custom CRDT-based text engine
-- Serverless WebSocket architecture
-- Eventual consistency with order-independent merges
-- Durable state + Redis caching layer
+- Built a real-time collaborative editor using a custom CRDT-based synchronization engine
+- Designed serverless WebSocket architecture using AWS Lambda for low-latency collaboration
+- Implemented eventual consistency with order-independent merge operations
+- Added durable persistence layer with Redis caching and DynamoDB storage
 
-🔗 Live: https://sync-draft.vercel.app  
-🔗 Repo: https://github.com/adya07pandey/SyncDraft  
+**Core Features:**  
+`CRDT` • `Real-Time Collaboration` • `Serverless WebSockets` • `Redis` • `DynamoDB`
+
+🔗 **Live:** [SyncDraft](https://sync-draft.vercel.app)  
+🔗 **Repo:** [SyncDraft](https://github.com/adya07pandey/SyncDraft)
+
+---
+
+### 🔹 Zentra – Multi-Tenant Fintech SaaS Backend
+**Tech:** Node.js, Express, PostgreSQL, Prisma, JWT
+
+- Built a production-style multi-tenant fintech backend inspired by platforms like Stripe and QuickBooks
+- Designed organization-based tenant isolation with middleware-driven RBAC and secure access control
+- Implemented double-entry accounting system with transaction reversal support and audit-safe financial workflows
+- Developed analytics APIs for balances, expenses, income, and financial insights
+- Added OTP verification, invite-based onboarding, JWT authentication, and rate limiting
+- Structured backend using scalable modular architecture with Prisma ORM
+
+**Core Features:**  
+`Multi-Tenant SaaS` • `Double-Entry Accounting` • `RBAC` • `JWT Auth` • `Ledger System`
+
+🔗 **Live:** [Zentra](zentra-kohl.vercel.app) 
+🔗 **Repo:** [Zentra](https://github.com/adya07pandey/Zentra)
 
 ---
 
-### 🔹 IoT Smart Parking System (LPR Enabled)
-Tech: Raspberry Pi, OpenCV, PyTesseract
+### 🔹 FlowPilot – Multi-Tenant SaaS Workflow Engine
+**Tech:** React, Node.js, Express, PostgreSQL, Prisma, JWT
 
-- Automated gate control using sensors
-- License plate recognition system
-- Modular OCR pipeline
-- Fee computation + logging system
+- Built a graph-based workflow execution engine for multi-tenant SaaS applications
+- Implemented secure role-based access control with HTTP-only JWT authentication
+- Designed workflow analytics dashboard for tracking execution performance and system activity
+- Developed scalable backend APIs and tenant-isolated database architecture
 
-🔗 Repo: https://github.com/adya07pandey/Smart_Parking_System_LPR  
+**Core Features:**  
+`Workflow Engine` • `RBAC` • `JWT Auth` • `Analytics Dashboard` • `Multi-Tenant SaaS`
+
+🔗 **Live:** [FlowPilot](https://flowpilot-smoky.vercel.app/)  
+🔗 **Repo:** [FlowPilot](https://github.com/adya07pandey/flowpilot)
 
 ---
+
+### 🔹 CivicResolve – Public Complaint Management System
+**Tech:** FastAPI, React, PostgreSQL, SQLAlchemy, JWT, Docker
+
+- Built a full-stack civic complaint management platform with dedicated dashboards for citizens, officers, and admins
+- Implemented JWT + HTTPOnly cookie authentication with backend-enforced RBAC authorization
+- Developed complaint tracking workflows with department-level access isolation and status management
+- Designed scalable FastAPI backend architecture using SQLAlchemy, Alembic migrations, and PostgreSQL
+- Containerized frontend and backend services using Docker and deployed on Render, Vercel, and Neon PostgreSQL
+
+**Core Features:**  
+`Complaint Tracking` • `RBAC` • `JWT Auth` • `FastAPI` • `PostgreSQL` • `Docker`
+
+🔗 **Live:** [CivicResolve](https://civic-resolve-blush.vercel.app)  
+🔗 **Repo:** [CivicResolve](https://github.com/adya07pandey/CivicResolve)
+
+---
+
+### 🔹 Smart Parking System (LPR Enabled)
+**Tech:** Raspberry Pi, OpenCV, PyTesseract
+
+- Developed an IoT-based smart parking system with automated gate control
+- Built a license plate recognition pipeline using OpenCV and OCR processing
+- Implemented vehicle logging, fee computation, and modular detection workflows
+- Integrated sensors and embedded hardware for real-time parking management
+
+**Core Features:**  
+`IoT` • `Computer Vision` • `OCR` • `OpenCV` • `Raspberry Pi`
+
+🔗 **Repo:** [Smart Parking System](https://github.com/adya07pandey/Smart_Parking_System_LPR)
 
 ## 🛠 Tech Stack
 
