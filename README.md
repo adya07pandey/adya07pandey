@@ -37,6 +37,7 @@ Currently researching memory page compressibility prediction for optimizing zram
 `Multi-Agent AI` • `RAG Pipeline` • `Gmail OAuth` • `WebSockets` • `Vector Search` • `JWT Auth`
 
 🔗 **Live:** [ReplixAI](replix-ai-one.vercel.app)
+
 🔗 **Repo:** [ReplixAI](https://github.com/adya07pandey/ReplixAI)
 
 ---
