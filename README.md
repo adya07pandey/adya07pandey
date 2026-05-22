@@ -24,22 +24,18 @@ Currently researching memory page compressibility prediction for optimizing zram
 ## 🏗 Featured Projects
 
 ### 🔹 ReplixAI – AI Email Automation System
-**Tech:** Python, FastAPI, LangGraph, PostgreSQL, Qdrant, WebSockets, Docker
+**Tech:** Python, FastAPI, LangGraph, LLaMA 3.1, PostgreSQL, WebSockets, Docker
 
-- Built a multi-agent AI email automation platform integrated with Gmail APIs and Google OAuth 2.0
-- Designed LangGraph workflows for email classification, structured extraction, monitoring, and AI reply generation
-- Implemented real-time email processing using Gmail Webhooks (Pub/Sub) and WebSockets
-- Developed RAG-powered contextual responses using Qdrant vector search and Sentence Transformers
-- Added secure JWT authentication with scalable multi-tenant architecture
-- Containerized backend services using Docker and automated deployment pipelines
+- Built 2-agent LangGraph pipeline automating Gmail processing across 8 categories with ~95% classification accuracy and ~3s end-to-end latency
+- Implemented RAG using Sentence Transformers and PostgreSQL vector search for policy-aware, context-aware reply generation
+- Integrated Gmail Pub/Sub webhooks with idempotent duplicate protection and real-time WebSocket broadcasting
+- Secured with Google OAuth 2.0 and JWT authentication; containerized with Docker and automated CI/CD pipelines
 
 **Core Features:**  
 `Multi-Agent AI` • `RAG Pipeline` • `Gmail OAuth` • `WebSockets` • `Vector Search` • `JWT Auth`
 
-🔗 **Live:** [ReplixAI](https://replix-ai-one.vercel.app/)
-
+🔗 **Live:** [ReplixAI](https://replix-ai-one.vercel.app/)  
 🔗 **Repo:** [ReplixAI](https://github.com/adya07pandey/ReplixAI)
-
 ---
 
 ### 🔹 SyncDraft – Real-Time Collaborative Editor
