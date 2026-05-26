@@ -72,19 +72,19 @@ Currently researching memory page compressibility prediction for optimizing zram
 
 ---
 
-### 🔹 FlowPilot – Multi-Tenant SaaS Workflow Engine
-**Tech:** React, Node.js, Express, PostgreSQL, Prisma, JWT
 
-- Built a graph-based workflow execution engine for multi-tenant SaaS applications
-- Implemented secure role-based access control with HTTP-only JWT authentication
-- Designed workflow analytics dashboard for tracking execution performance and system activity
-- Developed scalable backend APIs and tenant-isolated database architecture
+## 🔹 CausalCareNet – Causal Healthcare AI Framework
+**Tech:** Python, pgmpy, scikit-learn, CatBoost, Bayesian Networks
 
-**Core Features:**  
-`Workflow Engine` • `RBAC` • `JWT Auth` • `Analytics Dashboard` • `Multi-Tenant SaaS`
+- Built an uncertainty-aware causal Bayesian framework for multi-disease risk prediction across liver, thyroid, and heart disease datasets
+- Implemented DAG learning using Hill Climb Search and BIC scoring with expert-guided edge constraints
+- Designed counterfactual intervention engine evaluating P(Y|do(X=x)) to suggest minimum-change risk-reduction strategies
+- Achieved 0.83 F1 on ILPD dataset and 0.97 AUC on thyroid prediction with bootstrap confidence interval estimation
 
-🔗 **Live:** [FlowPilot](https://flowpilot-smoky.vercel.app/)  
-🔗 **Repo:** [FlowPilot](https://github.com/adya07pandey/flowpilot)
+**Core Features:**
+`Causal Inference` `Bayesian Networks` `Counterfactual Analysis` `Uncertainty Estimation` `Clinical Recommendations`
+
+🔗 **Repo:** [Zentra](https://github.com/adya07pandey/CausalCareNet)
 
 ---
 
