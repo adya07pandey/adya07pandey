@@ -84,7 +84,7 @@ Currently researching memory page compressibility prediction for optimizing zram
 **Core Features:**
 `Causal Inference` `Bayesian Networks` `Counterfactual Analysis` `Uncertainty Estimation` `Clinical Recommendations`
 
-🔗 **Repo:** [Zentra](https://github.com/adya07pandey/CausalCareNet)
+🔗 **Repo:** [CausalCareNet](https://github.com/adya07pandey/CausalCareNet)
 
 ---
 
