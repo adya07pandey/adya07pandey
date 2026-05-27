@@ -1,0 +1,11 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="130"><stop stop-color="#9f9be8"/><stop offset=".55" stop-color="#c9ace7"/><stop offset="1" stop-color="#263c9d"/></linearGradient></defs>
+  <rect width="1200" height="130" rx="24" fill="url(#bg)"/>
+  <path d="M0 78C180 24 278 124 460 74S730 11 922 64S1100 99 1200 50V130H0V78Z" fill="#ffe2cc" opacity=".52">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 78C180 24 278 124 460 74S730 11 922 64S1100 99 1200 50V130H0V78Z;M0 68C170 40 280 100 458 62S750 34 918 78S1085 78 1200 58V130H0V68Z;M0 78C180 24 278 124 460 74S730 11 922 64S1100 99 1200 50V130H0V78Z"/>
+  </path>
+  <path d="M0 94C170 66 280 76 450 92S725 121 930 81S1100 61 1200 84V130H0V94Z" fill="#ff6275" opacity=".32">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 94C170 66 280 76 450 92S725 121 930 81S1100 61 1200 84V130H0V94Z;M0 84C160 101 300 54 450 84S740 104 930 92S1080 48 1200 76V130H0V84Z;M0 94C170 66 280 76 450 92S725 121 930 81S1100 61 1200 84V130H0V94Z"/>
+  </path>
+  <text x="600" y="64" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900" fill="#ffffff">Building practical AI systems, one shipped project at a time.</text>
+</svg>

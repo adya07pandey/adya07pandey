@@ -1,0 +1,91 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Adya Pandey glassmorphism animated profile banner</title>
+  <desc id="desc">A lavender, peach, coral, and indigo animated profile banner inspired by a swing ride photograph.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9f9be8"/>
+      <stop offset="0.54" stop-color="#c9ace7"/>
+      <stop offset="1" stop-color="#263c9d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="420" y2="260">
+      <stop stop-color="#ffffff" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="230" y2="150">
+      <stop stop-color="#ffe2cc"/>
+      <stop offset="0.55" stop-color="#f5b38e"/>
+      <stop offset="1" stop-color="#ff6275"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#263c9d" flood-opacity="0.26"/>
+    </filter>
+    <style>
+      .h1{font:900 62px Inter,Segoe UI,Arial,sans-serif;fill:#ffffff}
+      .sub{font:800 24px Inter,Segoe UI,Arial,sans-serif;fill:#fff4ed}
+      .body{font:650 18px Inter,Segoe UI,Arial,sans-serif;fill:#eef0ff}
+      .chip{font:800 14px Inter,Segoe UI,Arial,sans-serif;fill:#263c9d}
+      .code{font:700 17px Consolas,monospace;fill:#fff4ed}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="30" fill="url(#sky)"/>
+  <circle cx="150" cy="95" r="92" fill="#ffe2cc" opacity="0.32" filter="url(#blur)">
+    <animate attributeName="cx" values="150;225;150" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="320" r="130" fill="#ff6275" opacity="0.18" filter="url(#blur)">
+    <animate attributeName="cy" values="320;260;320" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <g transform="translate(610 132)" opacity="0.45" stroke="#fff4ed" stroke-width="1.45">
+    <g>
+      <path d="M0 0L-470 105M0 0L-390 205M0 0L-230 250M0 0L-80 275M0 0L72 276M0 0L230 248M0 0L392 202M0 0L470 104"/>
+      <path d="M0 0L-340 -16M0 0L-176 -54M0 0L0 -76M0 0L176 -54M0 0L340 -16"/>
+      <animateTransform attributeName="transform" type="rotate" values="-3 0 0;4 0 0;-3 0 0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#ff6275" stroke="none">
+      <rect x="-480" y="98" width="22" height="12" rx="3" transform="rotate(-18 -480 98)"/>
+      <rect x="-400" y="198" width="22" height="12" rx="3" transform="rotate(-10 -400 198)"/>
+      <rect x="458" y="98" width="22" height="12" rx="3" transform="rotate(18 458 98)"/>
+      <rect x="378" y="198" width="22" height="12" rx="3" transform="rotate(10 378 198)"/>
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g transform="translate(64 58)" filter="url(#shadow)">
+    <rect width="646" height="292" rx="28" fill="url(#glass)" stroke="#fff" stroke-opacity="0.55"/>
+    <rect x="20" y="20" width="606" height="252" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.22"/>
+    <text x="44" y="86" class="h1">Adya Pandey</text>
+    <text x="48" y="128" class="sub">Backend Systems + AI Engineering</text>
+    <text x="48" y="172" class="body">3rd year AI &amp; Data Science student at IIIT Naya Raipur</text>
+    <text x="48" y="202" class="body">Samsung Prism R&amp;D Intern | ACM ICPC Regionalist</text>
+    <g transform="translate(48 232)">
+      <rect width="124" height="36" rx="18" fill="#ffe2cc" fill-opacity="0.92"/>
+      <text x="22" y="24" class="chip">ML Systems</text>
+      <animateTransform attributeName="transform" type="translate" values="48 232;48 224;48 232" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(188 232)">
+      <rect width="156" height="36" rx="18" fill="#ffffff" fill-opacity="0.72"/>
+      <text x="20" y="24" class="chip">Distributed Apps</text>
+      <animateTransform attributeName="transform" type="translate" values="188 232;188 240;188 232" dur="3.4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(360 232)">
+      <rect width="142" height="36" rx="18" fill="#ffc0b3" fill-opacity="0.86"/>
+      <text x="20" y="24" class="chip">RAG + Agents</text>
+      <animateTransform attributeName="transform" type="translate" values="360 232;360 224;360 232" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g transform="translate(766 82)" filter="url(#shadow)">
+    <rect width="350" height="238" rx="24" fill="#ffffff" fill-opacity="0.18" stroke="#ffffff" stroke-opacity="0.52"/>
+    <rect x="18" y="18" width="314" height="202" rx="18" fill="#263c9d" fill-opacity="0.42"/>
+    <circle cx="45" cy="44" r="6" fill="#ff6275"/>
+    <circle cx="68" cy="44" r="6" fill="#f5b38e"/>
+    <circle cx="91" cy="44" r="6" fill="#fff4ed"/>
+    <text x="40" y="88" class="code">const focus = ["AI",</text>
+    <text x="40" y="120" class="code">  "backend", "research"];</text>
+    <text x="40" y="166" class="code">ship(impact);</text>
+    <rect x="40" y="186" width="92" height="10" rx="5" fill="url(#warm)">
+      <animate attributeName="width" values="92;250;160;280;92" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
