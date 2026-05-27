@@ -1,0 +1,29 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="150" rx="20" fill="#0F172A"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(42 30)">
+      <rect width="250" height="90" rx="18" fill="#10263E" stroke="#38BDF8"/>
+      <text x="24" y="38" fill="#BAE6FD" font-size="18" font-weight="800">ACM ICPC</text>
+      <text x="24" y="66" fill="#E2E8F0" font-size="21" font-weight="800">Regionalist 2025</text>
+      <animateTransform attributeName="transform" type="translate" values="42 30;42 22;42 30" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(330 30)">
+      <rect width="250" height="90" rx="18" fill="#10263E" stroke="#22C55E"/>
+      <text x="24" y="38" fill="#BBF7D0" font-size="18" font-weight="800">ICORT 2025</text>
+      <text x="24" y="66" fill="#E2E8F0" font-size="20" font-weight="800">1st Position</text>
+      <animateTransform attributeName="transform" type="translate" values="330 30;330 38;330 30" dur="3.4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(618 30)">
+      <rect width="250" height="90" rx="18" fill="#10263E" stroke="#F59E0B"/>
+      <text x="24" y="38" fill="#FDE68A" font-size="18" font-weight="800">AI Durg Kaggle</text>
+      <text x="24" y="66" fill="#E2E8F0" font-size="20" font-weight="800">2nd Place</text>
+      <animateTransform attributeName="transform" type="translate" values="618 30;618 22;618 30" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(906 30)">
+      <rect width="250" height="90" rx="18" fill="#10263E" stroke="#A78BFA"/>
+      <text x="24" y="38" fill="#DDD6FE" font-size="18" font-weight="800">MachineHack</text>
+      <text x="24" y="66" fill="#E2E8F0" font-size="20" font-weight="800">Top 3 Finishes</text>
+      <animateTransform attributeName="transform" type="translate" values="906 30;906 38;906 30" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
